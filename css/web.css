@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 245, 245, 0.555);
+    /* font-weight: 700; */
+    z-index: 1000;
+}
+.form-address{
+    background-color: rgb(190, 241, 224);
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 100;
+}
+.address h1{
+    background-color: rgba(166, 166, 226, 0.63);
+    width: 500px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.opentime{
+    margin-left: 100px;
+}
+.adds-1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.adds-1 i{
+    font-size: 20px;
+    padding: 6px;
+}
+.adds-2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.adds-2 i{
+    font-size: 20px;
+    padding: 3px;
+}
+.adds-2 p{
+    padding: 4px;
+}
+.adds-3{
+    display: flex;
+    margin-bottom: 20px;
+}
+.adds-3 i{
+    font-size: 20px;
+    padding: 4px;
+}
+.adds-3 p{
+    padding: 4px;
+}
+.maps{
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 35px;
+}
+.form-address i{
+    padding: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.header-cart{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0 ;
+    position: absolute;
+    margin-top: 220px;
+    z-index: 100;
+}
+.cart{
+    background-color: rgb(236, 248, 248);
+    display: flex;
+    
+}
+.information-divs1{ 
+    background-color: rgb(233, 233, 250);
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    display: flex;
+    justify-content: space-between;
+}
+.information{
+    background-color: rgb(233, 233, 250);
+    display: flex;
+}
+.back-shop{
+    margin-right: 35px;
+}
+.back-shop:hover{
+    cursor: pointer;
+    color: blue;
+}
+.delete-cart:hover{
+    cursor: pointer;
+    color: red;
+}
+.information-divs2{
+    background-color: rgb(178, 193, 194);
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+}
+.information-divs2 .productss{
+    padding: 5px;
+    width: 900px;
+    margin-right: 50px;
+}
+.information-divs2 .unit-price{
+    margin-right: 60px;
+}
+.information-divs2 .amount{
+    margin-right: 50px;
+}
+.information-divs2 .prices{
+    margin-right: 60px;
+}
+.information-divs3{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 5px;
+}
+.elment-productss{
+    width: 900px;
+    
+    display: flex;
+    margin-right: 55px;
+}
+.elment-productss img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+.elment-productss img:hover{
+    cursor: pointer;        
+}
+.elment-productss p{
+    padding: 5px;
+}
+.information-divs3 .element-unit-price{
+    margin-right: 40px;
+    padding: 5px;
+}
+.information-divs3 .element-amount{
+    display: flex;
+    margin-right: 25px;
+    padding: 5px;
+}
+.information-divs3 button{
+    width: 20px;
+    height: 20px;
+    border: 1px solid seashell;
+    border-radius: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.information-divs3 button:hover{
+    cursor: pointer;
+    color: blue;
+}
+.information-divs3 .element-prices{
+    margin-right: 45px;
+    padding: 5px;
+}
+.information-divs3 .element-manipulation{
+    display: flex;
+    padding: 5px;
+    margin-right: 10px;
+}
+.information-divs3 .element-manipulation i{
+    margin-right: 10px;
+}
+.information-divs3 .element-manipulation:hover{
+    cursor: pointer;
+    color: red;
+}
+ul{
+    background-color: rgba(209, 231, 231, 0.884);
+    width: 200px;
+    height: 0px;
+    margin-left: 265px;
+    margin-top: 170px;
+    transition: height 2s;  
+    position: absolute;
+    z-index: 10;
+
+}
+.li{
+    text-align: center;
+    padding: 10px;
+    text-decoration:underline;
+    /* display: none; */
+    position: initial;
+}
+li:hover{
+    color: blue;
+}
